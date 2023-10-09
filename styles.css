@@ -199,3 +199,58 @@ border: none;
     cursor: pointer;
     
 }
+/* CSS code for smaller screens */
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+
+  .image1 {
+    margin-left: 20px;
+    margin-top: 6px;
+    width: 100%;
+  }
+
+  ul.navbar {
+    position: static;
+    margin-top: 16px;
+    right: auto;
+    text-align: center;
+  }
+
+  ul.icons {
+    position: static;
+    margin-top: 31px;
+    right: auto;
+    text-align: center;
+  }
+
+  ul.icon {
+    position: static;
+    margin-top: 28px;
+    right: auto;
+    text-align: center;
+  }
+
+  .line2 {
+    top: auto;
+    left: auto;
+    text-align: center;
+  }
+
+  h3 {
+    margin-top: 50px;
+  }
+
+  p {
+    margin-top: 20px;
+  }
+
+  .btn1,
+  .btn2 {
+    top: auto;
+    left: auto;
+    margin: 10px auto;
+    display: block;
+  }
+}
