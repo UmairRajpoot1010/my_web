@@ -1,13 +1,14 @@
 body
 {
-    background-image: url('Layer\ 1.png');
-    background-size: 1920px 680px;
+    background-image: url('images/Layer\ 1.png');
+    background-size: 100% ;
     background-repeat: no-repeat;
 }
 .image1
 {
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: 6px;
+    width: 50%;
 }
 
  ul.navbar {
@@ -125,12 +126,13 @@ ul.icon{
   } 
   h3{
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 250px;
-    left: 523px;
-    font-size:35px;
+    text-align: center;
+    margin-top: 110px;
+    
+    font-size:30px;
     color: #ffffff;
     font-weight: bold;
+    
   }
 
   .line2
@@ -139,17 +141,18 @@ ul.icon{
     border-top: 5px solid #ffb705;
     border-bottom: 5px;
     margin: 10px 0; 
-    position: absolute;
-    top: 335px;
-    left: 850px;
+    text-align: center;
+    top: 240px;
+    left: 630px;
     
   }
   p{
     color: #ffffff;
     font-family: Arial;
     text-align: center;
-    margin-top:280px;
     line-height: 30px;
+    margin-top: 40px;
+    font-size: small;
   }
 
   .btn1
@@ -157,18 +160,20 @@ ul.icon{
     background-color: #ffb705;
     color: #ffffff;
     text-align: center;
-    padding: 16px 28px;
+    padding: 16px 22px;
     font-size: 14px;
     justify-content: center;
-    margin-left: 40%;
-    margin-top: 25px;
-
+    
+    position: absolute;
+    top: 60.7%;
+    left: 38%;
+border: none;
   }
 
   .btn1:hover
   {
     background-color:transparent;
-    border: 2px solid white;
+    border: 1px solid white;
     color: #ffffff;
     transition-duration:0.2s;
     cursor: pointer;
@@ -179,11 +184,11 @@ ul.icon{
     border: 2px solid white;
     color: #ffffff;
     text-align: center;
-    padding: 15px 28px;
+    padding: 14px 22px;
     font-size: 14px;
     justify-content: center;
     position: absolute;
-    top: 57.5%;
+    top: 60.7%;
     left: 50%;
   }
 .btn2:hover{
