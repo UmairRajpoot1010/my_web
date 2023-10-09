@@ -337,3 +337,44 @@ border: none;
   position: absolute;
   top: 207px;
 }
+.card3
+{
+  position: absolute;
+  top: 432px;
+  left: 10.5%;
+   margin: 10px;
+   margin-top: 120px;
+   margin-left: 50%;
+}
+.card-img-top3{
+  width: 270px;
+  height: 191px;
+}
+.card-title3{
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.btn5
+{
+  background-color: transparent;
+  color: #000000;
+  text-align: center;
+  padding: 16px 22px;
+  font-size: 14px;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.btn5:hover
+{
+  background-color:transparent;
+  border: 1px solid #ffb705;
+  color: #ffb705;
+  transition-duration:0.2s;
+  cursor: pointer;
+}
+.eye{
+  position: absolute;
+  top: 207px;
+}
